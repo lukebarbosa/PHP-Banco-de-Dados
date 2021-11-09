@@ -17,7 +17,7 @@
 
   date_default_timezone_set('America/Sao_Paulo');
 
-  $pdo = new PDO('mysql:host=localhost;dbname=modulo_8', 'luke', 'admin123');
+  $pdo = new PDO('mysql:host=localhost;dbname=modulo_8', '', '');
 
   if(isset($_POST['acao'])) {
     $nome = $_POST['nome'];
